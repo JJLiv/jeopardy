@@ -1,0 +1,60 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#gameBoard td {
+  width: 150px;
+  height: 90px;
+  border: solid 3px #28a200;
+  background: #74119c;
+  text-align: center;
+  color: aliceblue;
+
+}
+#gameBoard td:hover {
+border: dashed 3px #28a200;
+}
+
+#column-top th {
+  width: 150px;
+  height: 90px;
+  border: dashed 1px lightgray;
+  background: #115ff4;
+}
+
+#gameContainer {
+  background-color: #060ce9;
+  top: 4rem;
+  left: 50%;
+  transform: translate(-50%);
+  position:absolute;
+  width: 900px;
+  height: 600px;
+  border: 1.5px solid black;
+  padding: 1.5rem;
+}
+
+/* #start {
+  position: absolute;
+  left: 46%;
+  top: 49%;
+} */
+
+h1 {
+  position:relative;
+  left: 45%;
+  top:15px;
+}
+#restart {
+  position: absolute;
+  bottom: -10%;
+}
